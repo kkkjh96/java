@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;RXTXcomm.jar, rxtxSerial.dll&apos; to &apos;lib&apos;" description="Move 2 resources to &apos;lib&apos;" destination="src/main/webapp/WEB-INF/lib" element1="/Serial/lib/RXTXcomm.jar" element2="/Serial/lib/rxtxSerial.dll" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="2" stamp="1650868075256" updateReferences="true"/>
+</session>

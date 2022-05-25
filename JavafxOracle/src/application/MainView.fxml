@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainViewController">
+   <children>
+      <TableView fx:id="eEmp" layoutX="20.0" layoutY="14.0" prefHeight="287.0" prefWidth="763.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="20.0">
+        <columns>
+          <TableColumn fx:id="eEmpno" prefWidth="90.0" text="EMPNO" />
+          <TableColumn fx:id="eEname" prefWidth="90.0" text="ENAME" />
+          <TableColumn fx:id="eJob" prefWidth="90.0" text="JOB" />
+          <TableColumn fx:id="eMgr" prefWidth="90.0" text="MGR" />
+          <TableColumn fx:id="eHiredate" prefWidth="90.0" text="HIREDATE" />
+          <TableColumn fx:id="eSal" prefWidth="90.0" text="SAL" />
+          <TableColumn fx:id="eComm" prefWidth="90.0" text="COMM" />
+          <TableColumn fx:id="eDeptno" prefWidth="90.0" text="DEPTNO" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="330.0" prefHeight="22.0" prefWidth="64.0" text="Title">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfTitle" layoutX="14.0" layoutY="363.0" prefHeight="40.0" prefWidth="191.0" />
+      <Button layoutX="84.0" layoutY="441.0" mnemonicParsing="false" onAction="#btnOKClicked" prefHeight="29.0" prefWidth="52.0" text="OK" />
+      <TableView fx:id="EMP" layoutX="226.0" layoutY="316.0" prefHeight="250.0" prefWidth="560.0">
+        <columns>
+          <TableColumn fx:id="EMPNO" prefWidth="70.0" text="사원번호" />
+          <TableColumn fx:id="ENAME" prefWidth="70.0" text="사원이름" />
+          <TableColumn fx:id="JOB" prefWidth="70.0" text="직책" />
+          <TableColumn fx:id="MGR" prefWidth="70.0" text="매니저" />
+          <TableColumn fx:id="HIREDATE" prefWidth="70.0" text="고용날짜" />
+          <TableColumn fx:id="SAL" prefWidth="70.0" text="월급" />
+          <TableColumn fx:id="COMM" prefWidth="70.0" text="보너스" />
+          <TableColumn fx:id="DEPTNO" prefWidth="70.0" text="부서번호" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

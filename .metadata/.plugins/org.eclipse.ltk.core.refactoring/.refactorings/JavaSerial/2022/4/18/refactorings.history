@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;JavaSerial&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     RXTXcomm.jar&#x0D;&#x0A;     rxtxSerial.dll" description="Copy files" element1="lib/RXTXcomm.jar" element2="lib/rxtxSerial.dll" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1650868918279" target="/Serial/lib" units="0" version="1.0"/>
+</session>
